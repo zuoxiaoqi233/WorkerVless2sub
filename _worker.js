@@ -35,9 +35,9 @@ let addressesnotlsapi = [
 	//可参考内容格式 自行搭建。
 ];
 
-let DLS = 4;//速度下限
+let DLS = 2;//速度下限
 let addressescsv = [
-	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS0-443-0.csv', 
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/merged_output.csv', 
 	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/45102-20240530-IP.csv',
 	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/396982-20240530-IP.csv',
 	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',
