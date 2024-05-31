@@ -12,7 +12,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/ip.txt', //可参考内容格式 自行搭建。
+	'https://cf-workers-text2kv-e74.pages.dev/ip.txt?token=7758258m', //可参考内容格式 自行搭建。
 	'https://addressesapi.090227.xyz/cmcc', 
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
@@ -30,13 +30,13 @@ let addressesnotlsapi = [
 	//可参考内容格式 自行搭建。
 ];
 
-let DLS = 2;//速度下限
+let DLS = 10;//速度下限
 let addressescsv = [
-	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS0-443-0.csv', 
-	// // 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/45102-20240530-IP.csv',
-	// // 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/396982-20240530-IP.csv',
-	// // 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',
-	// // 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',//iptest测速结果文件。
+	'https://cf-workers-text2kv-e74.pages.dev/cesu.csv?token=7758258m', 
+	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/45102-20240530-IP.csv',
+	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/396982-20240530-IP.csv',
+	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',
+	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',//iptest测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
