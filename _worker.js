@@ -30,13 +30,9 @@ let addressesnotlsapi = [
 	//可参考内容格式 自行搭建。
 ];
 
-let DLS = 10;//速度下限
+let DLS = 10000;//速度下限
 let addressescsv = [
 	'https://cf-workers-text2kv-e74.pages.dev/cesu.csv?token=7758258m', 
-	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/45102-20240530-IP.csv',
-	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/396982-20240530-IP.csv',
-	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',
-	// 'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/31898-20240530-IP.csv',//iptest测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
