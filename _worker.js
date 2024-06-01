@@ -5,7 +5,6 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'2052.zxqapp.top',
 	'443.zxqapp.top',
 	'80.zxqapp.top',
 ];
@@ -19,9 +18,9 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	// 'www.visa.com.sg#官方优选域名',
+	// 'www.wto.org:8080#官方优选域名',
+	// 'www.who.int:8880#官方优选域名',
 ];
 
 // 设置优选noTLS地址api接口
@@ -30,7 +29,7 @@ let addressesnotlsapi = [
 	//可参考内容格式 自行搭建。
 ];
 
-let DLS = 10000;//速度下限
+let DLS = 2;//速度下限
 let addressescsv = [
 	'https://cf-workers-text2kv-e74.pages.dev/cesu.csv?token=7758258m', 
 ];
