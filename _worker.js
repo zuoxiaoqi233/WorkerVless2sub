@@ -31,7 +31,7 @@ let addressesnotlsapi = [
 
 let DLS = 2;//速度下限
 let addressescsv = [
-	'https://cf-workers-text2kv-e74.pages.dev/cesu.csv?token=7758258m', 
+	// 'https://cf-workers-text2kv-e74.pages.dev/cesu.csv?token=7758258m', 
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
