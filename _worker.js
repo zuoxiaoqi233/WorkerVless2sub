@@ -5,8 +5,14 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	// '443.zxqapp.top',
-	// '80.zxqapp.top',
+	'443.zxqapp.top',
+	'80.zxqapp.top',
+	'2052.zxqapp.top',
+	'2083.zxqapp.top',
+	'8443.zxqapp.top',
+	'8080.zxqapp.top',
+	'8880.zxqapp.top',
+	'2053.zxqapp.top',
 ];
 
 // 设置优选地址api接口
