@@ -5,9 +5,14 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	// '443.zxqapp.top',
-	// '80.zxqapp.top',
-	// '2052.zxqapp.top',
+	'cf.090227.xyz',
+	'ct.090227.xyz',
+	'cmcc.090227.xyz',
+	'www.visa.com.sg',
+	'www.visa.com.hk',
+	'www.visa.com.tw',
+	'www.visa.co.jp',
+	'achk.cloudflarest.link',
 	// '2083.zxqapp.top',
 	// '8443.zxqapp.top',
 	// '8080.zxqapp.top',
