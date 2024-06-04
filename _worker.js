@@ -40,7 +40,7 @@ let addressesnotlsapi = [
 	// //可参考内容格式 自行搭建。
 ];
 
-let DLS = 2;//速度下限
+let DLS = 1;//速度下限
 let addressescsv = [
 	'https://cf-workers-text2kv-e74.pages.dev/AS0-0-SIN.csv?token=7758258m',
 	'https://cf-workers-text2kv-e74.pages.dev/AS0-0-LAX.csv?token=7758258m',
