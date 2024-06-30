@@ -15,9 +15,12 @@ let addresses = [
 	'achk.cloudflarest.link',
 	'80.zxqapp.top#我的优选域名',
 	'443.zxqapp.top##我的优选域名',
-	// '8080.zxqapp.top',
-	// '8880.zxqapp.top',
-	// '2053.zxqapp.top',
+	'8080.zxqapp.top',
+	'8880.zxqapp.top',
+	'2053.zxqapp.top',
+	'2052.zxqapp.top',
+	'2083.zxqapp.top',
+	'8443.zxqapp.top',
 ];
 
 // 设置优选地址api接口
