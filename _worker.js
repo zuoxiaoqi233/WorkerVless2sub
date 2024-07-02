@@ -15,17 +15,11 @@ let addresses = [
 	'achk.cloudflarest.link',
 	'80.zxqapp.top#我的优选域名',
 	'443.zxqapp.top##我的优选域名',
-	'8080.zxqapp.top',
-	'8880.zxqapp.top',
-	'2053.zxqapp.top',
-	'2052.zxqapp.top',
-	'2083.zxqapp.top',
-	'8443.zxqapp.top',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://cf-workers-text2kv-e74.pages.dev/ip.txt?token=7758258m', //可参考内容格式 自行搭建。
+	// 'https://cf-workers-text2kv-e74.pages.dev/ip.txt?token=7758258m', //可参考内容格式 自行搭建。
 	// 'https://addressesapi.090227.xyz/cmcc', 
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
@@ -45,9 +39,7 @@ let addressesnotlsapi = [
 
 let DLS = 1;//速度下限
 let addressescsv = [
-	// 'https://cf-workers-text2kv-e74.pages.dev/AS0-0-SIN.csv?token=7758258m',
-	// 'https://cf-workers-text2kv-e74.pages.dev/AS0-0-LAX.csv?token=7758258m',
-	// 'https://cf-workers-text2kv-e74.pages.dev/AS0-0-HKG.csv?token=7758258m',
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS45102-0-0.csv',
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
