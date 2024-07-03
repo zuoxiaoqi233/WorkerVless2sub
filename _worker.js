@@ -37,9 +37,13 @@ let addressesnotlsapi = [
 	// //可参考内容格式 自行搭建。
 ];
 
-let DLS = 2;//速度下限
+let DLS = 1.6;//速度下限
 let addressescsv = [
 	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/cesu.csv',
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS45102-0-0.csv',
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS0-0-SIN.csv',
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS0-0-LAX.csv',
+	'https://raw.githubusercontent.com/zuoxiaoqi233/yxip/main/AS0-0-HKG.csv',
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
